@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+    background-color: black; color: black;
+    width: 470px;
+    height: 240px;
+    display: grid;
+    place-content: center;
+    margin: 60px;
+}
+
+form{
+    text-decoration-color: rgb(233, 235, 236);
+    width: 300px;
+    height: 340px;
+    display: grid;
+    place-content: center;
+    background-color: rgb(0, 0, 0); color: rgb(250, 250, 250);
+}
+
+input{
+    height: 25px;
+    width: 220px;
+    border-radius: 12px;
+    background-color: lavender;
+    border-color: lavender;
+    box-shadow: 0 0 5px 5px lavender;
+    display: grid;
+    place-content: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button{
+    height: 30px;
+    width: 230px;
+    color: black;
+    background-color: white;
+    border-color:black;
+    border-radius: 12px;
+}
+ 
+h2{
+    font-size: 34px;
+    display: grid;
+    place-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+

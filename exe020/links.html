@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*  SELETORES PERSONALIZADOS
+        
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = clildren
+        
+        */
+
+        body{
+            font-family:fantasy;
+            background-image: linear-gradient(to right, #263BDE, #470219) ;
+        }
+        
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        a::after{
+            content:  '[LINK]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(162, 153, 180);
+        }
+
+        img{
+            width: 300px;
+            height: 400px;
+        }
+
+        h1.basico{
+            text-align: center;
+        }
+
+        p.principal{
+            font-family: Arial, Helvetica, sans-serif;
+        } 
+
+        img.nos{
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        img:hover{
+            background-image: linear-gradient(to right, #E00D65, #A12ADE);
+            padding: 18px;
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="basico">Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank"></a>Repositório GitHub</li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank"></a>Canal do Youtube</li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank"></a>Site do Cursoemvideo</li>
+    </ul>
+
+    <h1 class="basico">Abaixo uma explicação breve</h1>
+
+    <p class="principal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rerum fuga minima illum molestias, veniam voluptates quisquam ratione vel exercitationem id, quos atque aut accusantium aliquid libero, dolorem necessitatibus molestiae.</p>
+
+    <h1 class="basico"> &#128525;MINHA SURTADA E CIUMENTA &#128571;</h1>
+    <img class="nos" id="id" src="amor/IMG-20240316-WA0010.jpg" alt="nossa foto">
+    <img class="nos" id="id" src="foto24.jpg" alt="nossa">
+</body>
+</html>
